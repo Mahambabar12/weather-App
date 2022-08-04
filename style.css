@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 2.5rem;
+    margin-right: 5px;
+    color: rgb(255, 250, 250);
+}
+
+h4 {
+    font-size: 1.2rem;
+    color: rgba(251, 171, 171,1);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background: #dd8fcf;
+    color: white;
+
+}
+
+.mainHeading {
+    font-size: 2.5rem;
+    padding: 1rem;
+    letter-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main {
+    height: 90vh;
+    display: flex;
+    background:url(https://i.gifer.com/XtDT.gif) no-repeat center/cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    border-radius: 30px;
+    border: 2px solid rgb(7, 7, 7);
+    box-shadow: 0px 0px 40px 5px rgb(3, 3, 3);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+
+}
+
+#search {
+    text-align: left;
+    font-weight: 100;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 40px;
+    padding-left: 30px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+#icon {
+    width: 100px;
+}
+
+#btn {
+    padding: 8px;
+    font-size: 15px;
+    background-color: #5ed5eb;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: #5ec3e2;
+}
+
+#temp_c {
+    font-size: 100px;
+    color: rgba(223, 191, 192,1);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.color {
+    color: rgb(255, 254, 254);
+    font-weight: 500;
+}
+
+.margin {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
